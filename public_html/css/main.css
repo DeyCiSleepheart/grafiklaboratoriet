@@ -1,5 +1,5 @@
 /*
-Der mangler den funktion der automatisk clearer efter parent, 
+Der mangler den funktion der automatisk clearer efter parent,
 der mangler en wrapper struktur der passer så indholdet er centreret med margin:0 auto;
 a og ul skal neutraliseres*/
 
@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2em;	
+	font-size: 2em;
 	line-height: 1em;
 	margin:15px;
 	text-align: center;
@@ -35,19 +35,19 @@ h2 {
 }
 
 h3 {
-	font-size:1.2em;	
+	font-size:1.2em;
 	margin:15px;
 }
 
 p {
-	font-size: 1em;		
+	font-size: 1em;
 	margin:15px 20px;
 }
 
 
 a {
 	text-decoration: none;
-	color:#afafaf;	
+	color:#afafaf;
 
 }
 a:hover {
@@ -63,7 +63,7 @@ a:active {
  color: mintcream;
 }
 
-/*.current sættes på det aktuelle link, så man kan se hvilken side man er på*/ 
+/*.current sættes på det aktuelle link, så man kan se hvilken side man er på*/
 a.current {
 	color:mintcream;
 }
@@ -112,7 +112,7 @@ header h2 {
 	float:left;
 	width:75%;
 	margin:-10px auto;
-	
+
 }
 #burgermenu_container {
 	float: right;
@@ -121,7 +121,7 @@ header h2 {
 }
 
 #bm_ognav_container:hover nav,#bm_ognav_container:focus nav {
-	display:block; 
+	display:block;
 }
 
 /*NAVIGATION*/
@@ -177,8 +177,8 @@ li:nth-child(1):hover a {
     background-repeat: no-repeat;
 	background-size:12%;
 }
-	
-		
+
+
 li:nth-child(2) a {
 	background-image:	url(../img/svg/folder_icon_rose.svg);
 	background-position: 10%;
@@ -197,12 +197,12 @@ li:nth-child(3) a {
 	background-position: 10%;
     background-repeat: no-repeat;
 	background-size:12%;
-	
+
 }
 
 li:nth-child(3):hover a {
 	background-image:	url(../img/svg/bog_ikon_green.svg);
-	
+
     background-repeat: no-repeat;
 	background-size:12%;
 }
@@ -212,8 +212,8 @@ ul ul li:nth-child(1) a {
     background-repeat: no-repeat;
 	background-size:12%;
 	margin:-22px 0 0 0;
-	
-	
+
+
 }
 ul ul li:nth-child(1):hover a {
 	background-image:	url(../img/svg/puslespil_icon_yellow.svg);
@@ -221,7 +221,7 @@ ul ul li:nth-child(1):hover a {
     background-repeat: no-repeat;
 	background-size:12%;
 }
-	
+
 ul ul li:nth-child(2) a {
 	background-image:	url(../img/svg/thumbsup_icon_blue.svg)!important;
 	background-position: 20%;
@@ -262,7 +262,7 @@ element:hover, element.hover_effect {
 
 .hover {
 -webkit-user-select: none;
--webkit-touch-callout: none;        
+-webkit-touch-callout: none;
 }
 
 /*FIX for hover på mobil slut*/
@@ -277,32 +277,32 @@ main {
 	padding-top: 35px;
 }
 .bg_red {
-	background: #f05e76; 
+	background: #f05e76;
 }
 .bg_teal {
-	background: #7bcdd1; 
+	background: #7bcdd1;
 
 }.bg_pink {
-	background: #d4acd0; 
+	background: #d4acd0;
 }
 .bg_lightgreen {
-	background: #99cb99; 
+	background: #99cb99;
 }
 .bg_lightyellow {
-	background: #ffeea6; 
+	background: #ffeea6;
 }
 .bg_blue {
-	background: #63c1ea; 
+	background: #63c1ea;
 }
 .bg_orange {
-	background: #fcb54b; 
+	background: #fcb54b;
 }
 
 .slags_regnbue {
 	background-repeat: no-repeat;
 	background-image: linear-gradient(to right, #f05e76, #f05e76),linear-gradient(to right, #7bcdd1, #7bcdd1) ,linear-gradient(to right, #d4acd0, #d4acd0) ,linear-gradient(to right, #99cb99, #99cb99) ,linear-gradient(to right, #ffeea6, #ffeea6) ,linear-gradient(to right, #63c1ea, #63c1ea) ,linear-gradient(to right, #fcb54b, #fcb54b);
 	background-position: 0 10%, 0 25.5%, 0 40.8%, 0 56.1%, 0 71.4%, 0 86.7%, 0 100%;
-	
+
 	background-size: 100% 14.28%, 100% 14.28%, 100% 14.28% , 100% 14.28%, 100% 14.28%, 100% 14.28%, 100% 14.28%;
 }
 
@@ -328,7 +328,7 @@ main {
 }
 
 .landetsomikkeer_link {
-	color: #f05e76; 
+	color: #f05e76;
 }
 
 /*MAIN slut*/
@@ -339,7 +339,7 @@ aside {
 }
 
 #bundsenbraender {
-	
+
 }
 
 /*Grafiklaboratoriets centralgrafik SLUT*/
@@ -351,7 +351,7 @@ section {
 	padding:20px 0;
 	float:left;
 	width:100%;
-	
+
 }
 
 article {
@@ -383,20 +383,20 @@ article.phplogo a:hover {
 	margin:0 auto;
 }
 
-/* MORTENS portfolio */
+/* underside MORTENS portfolio */
 
 /* Skillbar */
 
 .skillbar {
-    width: 100%; 
-    background-color: #ddd; 
+    width: 100%;
+    background-color: #ddd;
 }
 
 .skills {
-    text-align: right; 
-    padding-right: 20px; 
+    text-align: right;
+    padding-right: 20px;
     line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-    color: white; 
+    color: white;
 }
 
 .ikoner {width: 30%; background-color: #4CAF50;} /* Green */
@@ -407,7 +407,7 @@ article.phplogo a:hover {
 
 #test {
 	background: #f00;
-	
+
 }
 
 .test_2 {
@@ -416,13 +416,30 @@ article.phplogo a:hover {
 
 /* Skillbar */
 
-/* MORTENS portfolio SLUT */
+/* Underside MORTENS portfolio SLUT */
+
+/* Underside todo*/
+
+
+#todo li{
+	float:none;
+	list-style-type: disc;
+	margin: 0 0 0 40px;
+}
+
+#todo li ul li {
+	list-style-type: circle;
+}
+
+/* Underside todo SLUT*/
+
 /*FOOTER*/
 
 footer {
 	background: #30302f;
 	height:1000px;
-	
+
+
 }
 
 .footer_logo {
@@ -441,7 +458,7 @@ footer p {
 	color:#C3C3C3;
 	font-size: 0.8em;
 	margin: 0 0 0 18px;
-	
+
 }
 .teal {
 	color:#7bcdd1;
@@ -468,11 +485,11 @@ footer a {
 	color:#888;
 }
 /*FÆLLES PROJEKT*/
- 
+
 
 
 .tele_website_container {
-	
+
 }
 
 .website_container {
@@ -480,7 +497,7 @@ footer a {
 	height:160px;
 	width:100%;
 	margin: 40px 0 0 0;
-	
+
 }
 .website {
 	background-image: url(../img/thumbnail_filmensomikkeer.png);
@@ -510,7 +527,7 @@ footer a {
 
 /*FÆLLES PROJEKT slut*/
 address {
-	
+
 }
 
 /*FOOTER slut*/
@@ -520,38 +537,38 @@ address {
 /* Ekstra lille skærm*/
 
 @media screen and (max-width: 649px) and (min-width: 5px) {
-	
+
 	body {
 		font-size:85%;
 }
 	header h2 {
 		font-size:6vw;
 	}
-	
+
 	#main_content {
 
 		padding:10% 20px;
 }
-	
+
 		footer {
 		clear:both;
 	}
-	
-	
+
+
 }
-	
+
 
 
 /*ekstra lille skærm slut*/
 
 @media screen and (max-width: 850px) and (min-width: 550px) {
-	
-	
+
+
 	/* nav*/
 	li {
 		width:350px;
 	}
-	
+
 	article {
 		float:left;
 		width: 40%;
@@ -561,7 +578,7 @@ address {
 	footer {
 		clear:both;
 	}
-	
+
 	#tekst_om_os {
 		width: 45%;
 		float: left;
@@ -576,7 +593,7 @@ address {
 
 
 @media screen and (max-width: 4000px) and (min-width: 851px){
-	
+
 	header {
 		height: 100px;
 	}
@@ -584,13 +601,13 @@ address {
 		display:none;
 
 	}
-	
+
 	#header_wrapper {
 		width:1000px;
 		margin:0 auto;
 		position: relative;
 	}
-	
+
 	nav {
 
 		display:block;
@@ -598,17 +615,17 @@ address {
 		top:-10px;
 		left:34%;
 	}
-		
+
 	li {
 		float:left;
 		display:block;
 		width:200px;
 	}
-	
+
 	li a {
 		padding:59px 0 18px 0;
 	}
-	
+
 	li:nth-child(1) a {
 		background-image:	url(../img/svg/folder_icon_teal.svg);
 		background-position: 50% 15%;
@@ -659,7 +676,7 @@ address {
 		background-position: 80% 90%;
 		background-repeat: no-repeat;
 		margin:0 0 0 0;
-		
+
 	}
 	ul ul li:nth-child(1):hover a {
 		background-image:	url(../img/svg/puslespil_icon_yellow.svg);
@@ -696,47 +713,47 @@ address {
 
 	ul ul li {
 		float:none;
-		width:200%;	
+		width:200%;
 	}
 	ul ul li a {
 		padding:60px 4px 16px;
 	}
 	.undermenu {
-		display:none;			
+		display:none;
 		position: absolute;
 		top:88px;
 /*		left:45%;*/
 	}
-	
+
 	ul li:hover > ul {
 		  display: block;
-	
+
 	}
-	
+
 	main {
 		padding: 100px 0 0 0;
 	}
-	
+
 	.slags_regnbue {
 	background-repeat: no-repeat;
 	background-image: linear-gradient(to right, #f05e76, #f05e76),linear-gradient(to right, #7bcdd1, #7bcdd1) ,linear-gradient(to right, #d4acd0, #d4acd0) ,linear-gradient(to right, #99cb99, #99cb99) ,linear-gradient(to right, #ffeea6, #ffeea6) ,linear-gradient(to right, #63c1ea, #63c1ea) ,linear-gradient(to right, #fcb54b, #fcb54b);
 	background-position: 0 40%, 0 50%, 0 60%, 0 70%, 0 80%, 0 90%, 0 100%;
-	
+
 	background-size: 100% 14.28%, 100% 14.28%, 100% 14.28% , 100% 14.28%, 100% 14.28%, 100% 14.28%, 100% 14.28%;
 }
-	
+
 	#main_content {
 		width:1000px;
 		margin:0 auto;
 		padding:10px 20px;
 	}
-	
+
 	article {
 		float:left;
 		width: 30%;
 		margin:5% 1.6% 5% 1.6%;
 	}
-	
+
 	footer {
 		clear:both;
 
@@ -744,14 +761,14 @@ address {
 
 	#footer_wrapper {
 		width:1000px;
-		margin:0 auto;	
+		margin:0 auto;
 	}
-	
+
 	.footer_logo {
 		width:40%;
 		max-width: 400px;
 	}
-	
+
 	#tekst_om_os {
 		width: 45%;
 		float:left;
