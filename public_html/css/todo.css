@@ -240,12 +240,12 @@ ul.todo#completed:before {
 }
 /* The :empty function dosen't work unless you remove all spacing in the ul in html! */
 ul.todo#todo:empty:after {
-content: 'You have no todos';
+content: 'Der er ikke nogen todos endnu';
 margin:15px 0 0 0;
 }
 
 ul.todo#completed:empty:after {
-  content: 'You have yet to complete any tasks.';
+  content: 'Der er endnu ikke færdiggjort noget';
 }
 
 ul.todo#todo:after,
@@ -277,6 +277,8 @@ ul.todo#completed:after {
   }
   #containertiltodo a {
     color:#000;
+    text-decoration: underline;
+    font-weight: 700;
   }
   #containertiltodo a:hover {
     transform: scale(.2);

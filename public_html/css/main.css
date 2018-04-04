@@ -239,13 +239,26 @@ ul ul li:nth-child(2):hover a {
 ul ul li:nth-child(3) a {
 	background-image:	url(../img/svg/blog_icon_orange.svg)!important;
 	background-position: 20%;
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
 	background-size:12%;
 }
 ul ul li:nth-child(3):hover a {
 	background-image:	url(../img/svg/blog_icon_orange.svg);
 	background-position: 20%;
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
+	background-size:12%;
+}
+ul ul li:nth-child(4) a {
+	background-image:	url(../img/svg/todo_ikon_gul.svg)!important;
+	background-position: 20%;
+  background-repeat: no-repeat;
+	background-size:12%;
+}
+
+ul ul li:nth-child(4):hover a {
+	background-image:	url(../img/svg/todo_ikon_gul.svg);
+	background-position:20%;
+  background-repeat: no-repeat;
 	background-size:12%;
 }
 
@@ -422,15 +435,6 @@ article.phplogo a:hover {
 /* Underside todo*/
 
 
-#todo li{
-	float:none;
-	list-style-type: disc;
-	margin: 0 0 0 40px;
-}
-
-#todo li ul li {
-	list-style-type: circle;
-}
 
 /* Underside todo SLUT*/
 
@@ -707,6 +711,19 @@ address {
 	}
 	ul ul li:nth-child(3):hover a {
 		background-image:	url(../img/svg/blog_icon_orange.svg);
+		background-position: 50% 15%;
+		background-repeat: no-repeat;
+		background-size:50px;
+	}
+
+	ul ul li:nth-child(4) a {
+		background-image:	url(../img/svg/todo_ikon_gul.svg) !important;
+		background-position: 50% 15%;
+		background-repeat: no-repeat;
+		background-size:45px;
+	}
+	ul ul li:nth-child(4):hover a {
+		background-image:	url(../img/svg/todo_ikon_gul.svg);
 		background-position: 50% 15%;
 		background-repeat: no-repeat;
 		background-size:50px;
