@@ -135,10 +135,3 @@ function addItemToDOM(text, completed) {
 
 
 // Making a title function on the li's:
-
-
-function completedTitle() {
-  return "Dette er et færdiggjort gøremål!"
-}
-
-document.getElementById('completed').setAttrubute('title', completedTitle());

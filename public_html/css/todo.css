@@ -258,6 +258,7 @@ ul.todo#completed:after {
 }
 /* TODOLISTEN SLUT */
 
+
 .glow {
       -webkit-animation-duration: 2s;
       -webkit-animation-name: glow;
