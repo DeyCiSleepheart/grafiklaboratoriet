@@ -423,12 +423,23 @@ article.phplogo a:hover {
     color: white;
 }
 
+.skillswrapper {
+	padding: 0 5%;
+}
+
+.faerdigheder {width: 0%; background-color: #808080;} /* Dark Grey */
 .ikoner {width: 49%; background-color: #4CAF50;} /* Green */
-.visitkort {width: 5%; background-color: #2196F3;} /* Blue */
-.layoutshjemmeside {width: 5%; background-color: #f44336;} /* Red */
-.plakater {width: 10%; background-color: #808080;} /* Dark Grey */
-
-
+.visitkort {width: 0%; background-color: #2196F3;} /* Blue */
+.plakater {width: 0%; background-color: #808080;} /* Dark Grey */
+.logoer {width: 0%; background-color: #808080;} /* Dark Grey */
+.wireframes {width: 0%; background-color: #808080;} /* Dark Grey */
+.hjemmesidelayouts {width: 0%; background-color: #808080;} /* Dark Grey */
+.billeder {width: 0%; background-color: #808080;} /* Dark Grey */
+.collager {width: 0%; background-color: #808080;} /* Dark Grey */
+.forkortelser {width: 0%; background-color: #808080;} /* Dark Grey */
+.autogenveje {width: 0%; background-color: #808080;} /* Dark Grey */
+.indlaeg {width: 0%; background-color: #808080;} /* Dark Grey */
+.fonte {width: 0%; background-color: #808080;} /* Dark Grey */
 #test {
 	background: #f00;
 
