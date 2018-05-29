@@ -377,6 +377,8 @@ section {
 	width:100%;
 
 }
+/*Artikler START*/
+
 
 article {
 	padding:140px 10px 20px;
@@ -401,11 +403,15 @@ article.phplogo a:hover {
 	color:#222222;
 }
 
+article a {
+	color:#000;
+}
 
 #container {
 	max-width:1024px;
 	margin:0 auto;
 }
+/*Artikler SLUT*/
 
 /* underside MORTENS portfolio */
 
