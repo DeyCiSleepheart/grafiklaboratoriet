@@ -411,6 +411,26 @@ article a {
 	max-width:1024px;
 	margin:0 auto;
 }
+
+table {
+	clear:both;
+	margin:5px auto;
+}
+table caption {
+	text-align: left;
+	font-size: 1.2em;
+}
+th {
+	text-align:left;
+}
+td {
+	font-size: 0.8em;
+	padding:2px 8px;
+}
+tr {
+	margin:5px 5px;
+}
+
 /*Artikler SLUT*/
 
 /* underside MORTENS portfolio */
