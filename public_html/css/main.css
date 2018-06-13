@@ -50,27 +50,36 @@ p {
 	margin:15px 20px;
 }
 
-
 a {
 	text-decoration: none;
+	color: #212121;
+}
+a.aegte_link {
+	text-decoration: underline;
+	color:#f05e76;
+}
+a.aegte_link:hover {
+	color:#414141;
+}
+header a {
 	color:#afafaf;
 
 }
-a:hover {
+header a:hover {
 	color:mintcream;
 }
 
 
-a.blogtag {
+header a.blogtag {
 	color:inherit;
 }
 
-a:active {
+header a:active {
  color: mintcream;
 }
 
 /*.current sættes på det aktuelle link, så man kan se hvilken side man er på*/
-a.current {
+header a.current {
 	color:mintcream;
 }
 
@@ -325,7 +334,8 @@ main {
 
 	background-size: 100% 14.28%, 100% 14.28%, 100% 14.28% , 100% 14.28%, 100% 14.28%, 100% 14.28%, 100% 14.28%;
 }
-main .grrblog a, main .grrblog h3:hover, main h3, main h1 {
+
+main a, main h3:hover, main h3, main h1 {
 	color: #212121;
 }
 
@@ -355,6 +365,8 @@ main .grrblog a, main .grrblog h3:hover, main h3, main h1 {
 	color: #f05e76;
 }
 
+
+
 /*MAIN slut*/
 
 /*Grafiklaboratoriets centralgrafik*/
@@ -381,44 +393,55 @@ section {
 
 
 article {
-	padding:140px 10px 20px;
+	padding:140px 15px 20px;
 	margin: 5% 10%;
 	width:80%;
-	background:#fff;
+	background:#FFFAF0;
 	background-image: url(../img/logo_paa_vej.png);
 	background-position: 50% 10%;
 	background-repeat: no-repeat;
 	display: block;
 	overflow: hidden; /*gør så teksten ikke flyder ud over article containeren*/
 	height: 540px;
+	border-bottom: 20px solid #fffaf0;
 }
 article.phplogo {
 	background-image: url(../img/svg/PHP-logo.svg);
 	background-size: 40%;
 }
+article.git {
+	background-image: url(../img/svg/git_logo.svg);
+	background-size: 40%;
+}
+article.selvdiciplin {
+	background-image: url(../img/svg/pomodoro_ur_ikon.svg);
+	background-size: 35%;
+}
+
 article.phplogo a {
 	color:#000;
 }
 article.phplogo a:hover {
 	color:#222222;
 }
-
-article a {
-	color:#000;
+article a, article h3:hover, article h3, article h1 {
+	color: #212121;
 }
 
 #container {
 	max-width:1024px;
 	margin:0 auto;
 }
-
-table {
-	clear:both;
-	margin:5px auto;
+.container {
+	background: #FFFAF0;
+	margin:5%;
+	padding:2%;
+	height:80%;
 }
+
 table caption {
 	text-align: left;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 th {
 	text-align:left;
@@ -426,9 +449,28 @@ th {
 td {
 	font-size: 0.8em;
 	padding:2px 8px;
+	min-width: 100px;
+}
+tr:nth-child(even) {
+	background:grey;
 }
 tr {
 	margin:5px 5px;
+}
+aside {
+	border-left: solid 1px #212121;
+	padding-left:10px;
+	clear:both;
+	float: right;
+	width: 250px;
+}
+aside ul {
+	float:right;
+	list-style-type:disc;
+}
+aside li {
+	clear:both;
+	display: list-item;
 }
 
 /*Artikler SLUT*/
